@@ -2,7 +2,7 @@
 
 Streaming [Performance Monitor](http://technet.microsoft.com/en-us/library/cc749249.aspx) metrics for [Node](http://nodejs.org) on Windows.
 
-[node-perfmon](http://markitondemand.github.com/node-perfmon) is a thin wrapper around [typeperf](http://technet.microsoft.com/en-us/library/bb490960.aspx), and provides a [ReadableStream](http://nodejs.org/docs/latest/api/streams.html#readable_Stream) interface to the typeperf output.  Metrics are streamed once per second.  `perfmon` wraps up the typeperf executable as a child_process. It ensures that no more than one process will be spawned for each host machine streaming metrics.
+[node-perfmon](http://markitondemand.github.com/node-perfmon) is a thin wrapper around [typeperf](http://technet.microsoft.com/en-us/library/bb490960.aspx), and provides a [ReadableStream](https://nodejs.org/docs/latest/api/stream.html#readable-streams) interface to the typeperf output.  Metrics are streamed once per second.  `perfmon` wraps up the typeperf executable as a child_process. It ensures that no more than one process will be spawned for each host machine streaming metrics.
 
 ### Dependenices
 
